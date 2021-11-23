@@ -18,7 +18,9 @@
     <header>
         <div class="contenedor-header">
         <div class="logo">
-            <img src="/images/logo-mercado-liebre.svg" class="logo">
+            <div class="logo">
+                <a href="/" class="home"><img src="/images/logo-mercado-liebre.svg" alt="Logo ML"></a>
+            </div>
         </div>
         <form action="/search" method="GET" class="buscador">
             <input type="text" name="keywords" placeholder="Buscar productos, marcas y más" class="buscador-input">
@@ -71,11 +73,16 @@
 
         <div class="control-formulario">
             <h3 class="tamaño2">Fecha de nacimiento</h3>
-            <input type="date" name="edad" min='1900-01-01' max="2010-01-01" class="control">
+            <input type="date" name="edad" min='1900-01-01' max="2020-01-01" class="control">
         </div>
 
         <div class="control-formulario">
+            <h3 class="tamaño2">Domicilio</h3>
             <input type="text" name="domicilio" placeholder="Domicilio" class="control">
+        </div>
+
+        <div class="control-formulario">
+            <input type="number" name="calle" placeholder="Calle" class="control">
         </div>
 
         <div class="control-formulario">
